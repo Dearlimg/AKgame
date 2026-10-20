@@ -1,0 +1,13 @@
+# IDE / 工具缓存
+.idea/
+.playwright-cli/
+__pycache__/
+*.pyc
+
+# 开发临时产物（脚本运行时生成）
+tools/_abc_strings.txt
+tools/_save_edit.json
+tools/_save_now.json
+tools/_verify.txt
+game_save_post.txt
+git_status.txt
