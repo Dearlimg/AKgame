@@ -11,3 +11,14 @@ tools/_save_now.json
 tools/_verify.txt
 game_save_post.txt
 git_status.txt
+
+# SWF 逆向素材库的可再导出二进制预览；原始 SWF 已在仓库中
+素材库/**/*.png
+素材库/**/*.jpg
+素材库/**/*.jpeg
+素材库/**/*.webp
+素材库/**/*.gif
+素材库/**/*.mp3
+素材库/**/*.wav
+素材库/**/*.ttf
+素材库/00_游戏数据/UI文本/
