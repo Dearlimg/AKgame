@@ -22,3 +22,8 @@ git_status.txt
 素材库/**/*.wav
 素材库/**/*.ttf
 素材库/00_游戏数据/UI文本/
+
+# Scene-settings build candidates, local rollback copy and isolated saves
+assets/scene_settings/baseline/
+assets/scene_settings/build/
+assets/scene_settings/validation/
