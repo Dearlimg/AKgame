@@ -27,3 +27,8 @@ git_status.txt
 assets/scene_settings/baseline/
 assets/scene_settings/build/
 assets/scene_settings/validation/
+
+# Currency build candidates, rollback input, and disposable browser saves
+assets/economy/baseline/
+assets/economy/build/
+assets/economy/validation/

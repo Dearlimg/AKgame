@@ -261,11 +261,15 @@
     if (!store || Object.keys(store).length === 0) { return; }
     try {
       var x = new XMLHttpRequest();
-      x.open("POST", SAVE_ENDPOINT, !!sync);
+      x.open("POST", SAVE_ENDPOINT, !sync);
       x.setRequestHeader("Content-Type", "application/json");
       x.send(JSON.stringify(store));
     } catch (e) { /* 服务端不支持也无所谓 */ }
   }
+
+  // Called by the loader immediately after SharedObject.flush(). The local
+  // request finishes before the committed transaction can be refreshed away.
+  window.akgameSaveNow = function () { backupSave(true); };
 
   function restoreSave(done) {
     try {
