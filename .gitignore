@@ -32,3 +32,9 @@ assets/scene_settings/validation/
 assets/economy/baseline/
 assets/economy/build/
 assets/economy/validation/
+
+# Character attributes build candidates, rollback input and isolated test saves
+assets/character_stats/baseline/
+assets/character_stats/build/
+assets/character_stats/validation/
+
