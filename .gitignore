@@ -51,3 +51,24 @@ assets/pirate_captains/validation/
 
 # Art v1 delivery zip, redundant with the committed loose files
 assets/pirate_captains_art_v1/*.zip
+
+# ===== 只向 GitHub 提交「可直接运行的游戏」所需内容 =====
+# 以下研发/构建产物本地保留，但不入库、不上传
+
+# 二开工程目录：FFDec 构建管线、中间产物、原始 SWF 回滚副本
+assets/
+素材库/
+tools/
+docs/
+
+# 本地运行时存档及其备份、测试缓存
+存档备份/
+save.json
+.playwright-cli/
+
+# 开发笔记、逆向产出文档、临时脚本输出
+Dev.md
+装备大全.md
+files.xml
+game_save_post.txt
+git_status.txt
