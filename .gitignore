@@ -38,3 +38,13 @@ assets/character_stats/baseline/
 assets/character_stats/build/
 assets/character_stats/validation/
 
+# Town NPC baseline, generated class exports and isolated saves
+assets/npc_expansion/integration/
+
+# Native warehouse/shop rollback binaries, readback and isolated saves
+assets/town_ui/integration/
+
+# Captain rollback binaries, compiler intermediates and isolated browser saves
+assets/pirate_captains/baseline/
+assets/pirate_captains/build/
+assets/pirate_captains/validation/
