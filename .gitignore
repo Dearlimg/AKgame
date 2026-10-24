@@ -48,3 +48,6 @@ assets/town_ui/integration/
 assets/pirate_captains/baseline/
 assets/pirate_captains/build/
 assets/pirate_captains/validation/
+
+# Art v1 delivery zip, redundant with the committed loose files
+assets/pirate_captains_art_v1/*.zip
